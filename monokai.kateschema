@@ -2401,12 +2401,12 @@ JavaScript:Char=6,,,,,,,,,,---
 JavaScript:Comment=8,,,,,,,,,,---
 JavaScript:Decimal=3,,,,,,,,,,---
 JavaScript:Float=5,,,,,,,,,,---
-JavaScript:Function=11,,,,,,,,,,---
+JavaScript:Function=11,ff66d9ef,ff66d9ef,,,,,,,,---
 JavaScript:Hex=4,,,,,,,,,,---
 JavaScript:JSON=2,,,,,,,,,,---
 JavaScript:Keyword=1,,,,,,,,,,---
 JavaScript:Normal Text=0,,,,,,,,,,---
-JavaScript:Object Member=11,,,,,,,,,,---
+JavaScript:Object Member=11,ff66d9ef,ff452886,,,,,,,,---
 JavaScript:Objects=9,,,,,,,,,,---
 JavaScript:Octal=4,,,,,,,,,,---
 JavaScript:Pattern Character Class=4,,,,,,,,,,---
@@ -3469,6 +3469,7 @@ Nemerle:String=7,,,,,,,,,,---
 Nemerle:TypeDeclaration=9,ffeeb312,ff000000,1,,,,,,,---
 
 [Highlighting None - Schema monokai]
+Normal Text=0,,,,,,,,,,---
 Texto normal=0,,,,,,,,,,---
 
 [Highlighting OORS - Schema monokai]
@@ -5578,6 +5579,27 @@ mergetag text:String=7,,,,,,,,,,---
 mergetag text:Tag Character=1,ff008040,,,,,,,,,---
 mergetag text:Type=2,,,,,,,,,,---
 
+[Highlighting nesC - Schema monokai]
+Alerts:Alert Level 1=10,ffe85848,ffe85848,,,,,ff451e1a,,,---
+Alerts:Alert Level 2=10,ffca9219,ffca9219,,,,,ff451e1a,,,---
+Alerts:Alert Level 3=10,ff81ca2d,ff81ca2d,,,,,,,,---
+Alerts:Normal Text=0,,,,,,,,,,---
+nesC:Char=6,,,,,,,,,,---
+nesC:Comment=8,,,,,,,,,,---
+nesC:Data Type=2,,,,,,,,,,---
+nesC:Decimal=3,,,,,,,,,,---
+nesC:Float=5,,,,,,,,,,---
+nesC:Function=1,ff000080,ffffffff,0,0,,,,,,---
+nesC:Hex=4,,,,,,,,,,---
+nesC:Keyword=1,,,,,,,,,,---
+nesC:Normal Text=0,,,,,,,,,,---
+nesC:Octal=4,,,,,,,,,,---
+nesC:Prep. Lib=9,,,,,,,,,,---
+nesC:Preprocessor=9,,,,,,,,,,---
+nesC:String=7,,,,,,,,,,---
+nesC:String Char=6,,,,,,,,,,---
+nesC:Symbol=0,,,,,,,,,,---
+
 [Highlighting noweb - Schema monokai]
 Alerts:Alert Level 1=10,ffe85848,ffe85848,,,,,ff451e1a,,,---
 Alerts:Alert Level 2=10,ffca9219,ffca9219,,,,,ff451e1a,,,---
@@ -5852,5 +5874,5 @@ yacas:Symbol=9,,,,,,,,,,---
 [KateSchema]
 Font=Ubuntu Mono,10,-1,5,50,0,0,0,0,0
 full schema=true
-highlightings=None,Asm6502,AVR Assembler,GNU Assembler,Intel x86 (FASM),Intel x86 (NASM),MIPS Assembler,Motorola 68k (VASM/Devpac),Motorola DSP56k,PicAsm,4GL,4GL-PER,LDIF,progress,SQL,SQL (MySQL),SQL (PostgreSQL),Ansys,B-Method,dot,GAP,GDL,Matlab,Maxima,Octave,scilab,TI Basic,yacas,.desktop,INI Files,Asterisk,Cisco,WINE Config,Apache Configuration,x.org Configuration,fstab,Varnish Configuration Language,mergetag text,ABAP,ActionScript 2.0,Ada,ANS-Forth94,ANSI C89,Boo,C,C#,C++,C++11,C++11/Qt4,Cg,CGiS,Clipper,Clojure,Common Lisp,Component-Pascal,Crack,D,Eiffel,Fortran,FreeBASIC,FSharp,GCCExtensions,GLSL,GNU M4,KDev-PG[-Qt] Grammar,Haskell,Haxe,IDL,ILERPG,Inform,Java,Julia,KBasic,Lex/Flex,E Language,Literate Haskell,Logtalk,LPC,Modelica,Modula-2,MonoBasic,Nemerle,noweb,Objective Caml,Objective-C,Objective-C++,OORS,OPAL,Pascal,Prolog,PureBasic,RapidQ,RSI IDL,Sather,Scala,SML,Stata,TADS 3,Vala,xHarbour,Yacc/Bison,Zonnon,AHDL,Spice,SystemC,SystemVerilog,Vera,Verilog,VHDL,ASN.1,ASP,BibTeX,CleanCSS,ColdFusion,CSS,PostScript Printer Description,Doxygen,DoxygenLua,DTD,GlossTex,GNU Gettext,Haml,HTML,Javadoc,JSON,JSP,Kate File Template,LaTeX,LESSCSS,Wesnoth Markup Language,MAB-DB,Mako,Markdown,MediaWiki,Metapost/Metafont,Django HTML Template,Pango,PostScript,RELAX NG,RelaxNG-Compact,Restructured Text,reStructuredText,Roff,Ruby/Rails/RHTML,SCSS,SGML,SiSU,Texinfo,Textile,Troff Mandoc,TT2,txt2tags,vCard\\, vCalendar\\, iCalendar,VRML,XML,XML (Debug),xslt,XUL,YAML,ABC,Alerts,GDB Backtrace,CMake,Debian Control,CSS/PHP,Diff,Email,CUE Sheet,Jam,JavaScript/PHP,JavaScript/PlasmaDesktop,LilyPond,Debian Changelog,M3U,Makefile,Modelines,Music Publisher,PGN,POV-Ray,QMake,Alerts_indent,ChangeLog,RenderMan RIB,RPM Spec,Valgrind Suppression,AMPLE,MS-DOS Batch,AutoHotKey,AWK,Bash,Chicken,CoffeeScript,CubeScript,Erlang,Euphoria,ferite,JavaScript,LSL,Lua,Mason,MEL,Perl,PHP (HTML),PHP/PHP,Pig,Pike,Python,QML,R Script,REXX,Ruby,Scheme,GNU Linker Script,Quake Script,sed,Sieve,Tcl/Tk,Tcsh,UnrealScript,Velocity,Zsh
+highlightings=None,Asm6502,AVR Assembler,GNU Assembler,Intel x86 (FASM),Intel x86 (NASM),MIPS Assembler,Motorola 68k (VASM/Devpac),Motorola DSP56k,PicAsm,.desktop,Apache Configuration,Asterisk,Cisco,fstab,INI Files,mergetag text,Varnish Configuration Language,WINE Config,x.org Configuration,4GL,4GL-PER,LDIF,progress,SQL,SQL (MySQL),SQL (PostgreSQL),AHDL,Spice,SystemC,SystemVerilog,Vera,Verilog,VHDL,ASN.1,ASP,BibTeX,CleanCSS,ColdFusion,CSS,Django HTML Template,Doxygen,DoxygenLua,DTD,GlossTex,GNU Gettext,Haml,HTML,Javadoc,JSON,JSP,Kate File Template,LaTeX,LESSCSS,MAB-DB,Mako,Markdown,MediaWiki,Metapost/Metafont,Pango,PostScript,PostScript Printer Description,RELAX NG,RelaxNG-Compact,Restructured Text,reStructuredText,Roff,Ruby/Rails/RHTML,SCSS,SGML,SiSU,Texinfo,Textile,Troff Mandoc,TT2,txt2tags,vCard\\, vCalendar\\, iCalendar,VRML,Wesnoth Markup Language,XML,XML (Debug),xslt,XUL,YAML,ABC,Alerts,Alerts_indent,ChangeLog,CMake,CSS/PHP,CUE Sheet,Debian Changelog,Debian Control,Diff,Email,GDB Backtrace,Jam,JavaScript/PHP,JavaScript/PlasmaDesktop,LilyPond,M3U,Makefile,Modelines,Music Publisher,PGN,POV-Ray,QMake,RenderMan RIB,RPM Spec,Valgrind Suppression,Ansys,B-Method,dot,GAP,GDL,Matlab,Maxima,Octave,scilab,TI Basic,yacas,AMPLE,AutoHotKey,AWK,Bash,Chicken,CoffeeScript,CubeScript,Erlang,Euphoria,ferite,GNU Linker Script,JavaScript,LSL,Lua,Mason,MEL,MS-DOS Batch,Perl,PHP (HTML),PHP/PHP,Pig,Pike,Python,QML,Quake Script,R Script,REXX,Ruby,Scheme,sed,Sieve,Tcl/Tk,Tcsh,UnrealScript,Velocity,Zsh,ABAP,ActionScript 2.0,Ada,ANS-Forth94,ANSI C89,Boo,C,C#,C++,C++11,C++11/Qt4,Cg,CGiS,Clipper,Clojure,Common Lisp,Component-Pascal,Crack,D,E Language,Eiffel,Fortran,FreeBASIC,FSharp,GCCExtensions,GLSL,GNU M4,Haskell,Haxe,IDL,ILERPG,Inform,Java,Julia,KBasic,KDev-PG[-Qt] Grammar,Lex/Flex,Literate Haskell,Logtalk,LPC,Modelica,Modula-2,MonoBasic,Nemerle,nesC,noweb,Objective Caml,Objective-C,Objective-C++,OORS,OPAL,Pascal,Prolog,PureBasic,RapidQ,RSI IDL,Sather,Scala,SML,Stata,TADS 3,Vala,xHarbour,Yacc/Bison,Zonnon
 schema=monokai
